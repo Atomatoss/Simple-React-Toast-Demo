@@ -1,0 +1,77 @@
+:global {
+  .ec-mobile-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: rgba(255, 255, 255, 0.3);
+  }
+  .ec-mobile-toast {
+    width: 2rem;
+    font-size: 0.32rem;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border-radius: 0.05rem;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+      width: 1rem;
+    }
+    p {
+      color: #ffffff;
+      margin-top: 0.1rem;
+    }
+  }
+  .ec-mobile-toast-success {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.2rem;
+  }
+  .ec-mobile-toast-error {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.2rem;
+  }
+  .ec-mobile-toast-loading {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.2rem;
+  }
+  .ec-mobile-toast-info {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.1rem 0.2rem;
+    p {
+      margin: 0;
+    }
+  }
+}
+.rotation {
+  animation: rotation 2s linear infinite;
+  -moz-animation: rotation 2s linear infinite;
+  -webkit-animation: rotation 2s linear infinite;
+  -o-animation: rotation 2s linear infinite;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

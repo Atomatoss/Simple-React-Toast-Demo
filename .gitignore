@@ -1,0 +1,66 @@
+# OSX
+#
+.DS_Store
+
+# project
+#
+/old
+/resources
+/dist_*
+/dist
+/ts_build
+/lib
+
+# config
+# 
+sftp-config.json
+sftp-config*
+deployment-config.json
+
+# npm
+# 
+npm-debug.log
+
+# yarn
+# 
+yarn-error.log
+
+# node.js
+# 
+node_modules
+
+# db
+# 
+Thumbs.db
+
+# ide
+# 
+.idea
+
+# sublime
+# 
+*.sublime-project
+*.sublime-workspace
+
+# vscode
+# 
+.vscode
+jsconfig.json
+
+# vim
+# 
+*.swp
+*.swo
+*.~
+Session.vim
+
+# tmux
+#
+*.log
+
+# others
+# 
+*.orig
+task.json
+.cache-loader
+bash.exe.stackdump
