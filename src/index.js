@@ -9,5 +9,5 @@ const render = () => {
 render();
 
 if (module.hot) {
-    module.hot.accept(['../src/views/App/index.jsx'], render);
+    module.hot.accept(['../src/views/App'], render);
 }
