@@ -1,7 +1,9 @@
 # 一个简单的React Toast Demo
 
+<img src="./static/toast-preview.jpg">
+
 ```
-git clone ...
+// 启动
 yarn start
 ```
 
