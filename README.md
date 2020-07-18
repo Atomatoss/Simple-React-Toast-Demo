@@ -5,6 +5,8 @@ git clone ...
 yarn start
 ```
 
+# usage
+
 ```javascript
 import Toast from '../../components/Toast';
 
