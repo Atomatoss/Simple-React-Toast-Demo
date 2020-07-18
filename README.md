@@ -1,5 +1,10 @@
 # 一个简单的React Toast Demo
 
+```
+git clone ...
+yarn start
+```
+
 ```javascript
 import Toast from '../../components/Toast';
 
