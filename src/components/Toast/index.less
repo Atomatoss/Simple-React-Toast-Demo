@@ -12,10 +12,9 @@
     // background-color: rgba(255, 255, 255, 0.3);
   }
   .ec-mobile-toast {
-    width: 2rem;
+    // width: 2rem;
     font-size: 0.32rem;
-    height: 2rem;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
     border-radius: 0.05rem;
     display: -webkit-flex;
@@ -28,36 +27,56 @@
     }
     p {
       color: #ffffff;
-      margin-top: 0.1rem;
+      margin-top: 0.2rem;
+      width: inherit;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
   .ec-mobile-toast-success {
+    width: 2.4rem;
+    height: 2.4rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     padding: 0.2rem;
   }
   .ec-mobile-toast-error {
+    width: 2.4rem;
+    height: 2.4rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     padding: 0.2rem;
   }
   .ec-mobile-toast-loading {
+    width: 2.4rem;
+    height: 2.4rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     padding: 0.2rem;
   }
   .ec-mobile-toast-info {
-    height: 0.8rem;
-    line-height: 0.8rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    max-width: 4.52rem;
+    min-width: 2rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-family: PingFangSC-Regular;
+    font-size: 0.32rem;
+    color: #FFFFFF;
+    text-align: center;
     padding: 0.1rem 0.2rem;
+    border-radius: 0.08rem;
     p {
+      max-width: 4.52rem;
+      min-width: 2rem;
       margin: 0;
+      width: inherit;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
 }

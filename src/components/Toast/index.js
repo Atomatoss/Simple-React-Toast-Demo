@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './index.less';
-import successIcon from './images/success.png';
-import errorIcon from './images/error.png';
-import loadingIcon from './images/loading.png';
+import successIcon from './images/image_toast_success.png';
+import errorIcon from './images/image_toast_error.png';
+import loadingIcon from './images/image_toast_loading.png';
 
 const createDom = () => {
     if (document.getElementById('ec-mobile-mask')) {
