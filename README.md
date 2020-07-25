@@ -1,6 +1,6 @@
 # 一个简单的React Toast Demo
 
-<img src="http://liangzhiyong.xyz/images/toast-preview.jpg">
+[去看一看效果](https://liangzhiyong.xyz/toast)
 
 ```
 // 启动
